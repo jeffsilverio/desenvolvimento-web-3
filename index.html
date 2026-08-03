@@ -32,11 +32,15 @@
 </header>
 <section class="container">
 <div id="sobre-nos" class="container">
-<h1> Sobre nós</h1>
-<img class="img-responsive" src="./img/sobreNos.jpg"/>
-<h4> Photo by Gabriel Rodrigues on Unsplash</h4>
-
-<div class="panel-group"id="painel-sobre">
+<div class="row about-layout">
+  <div class="col-md-6">
+    <h1>Sobre nós</h1>
+    <p class="about-intro">Curitiba é uma cidade moderna, verde e acolhedora, conhecida pela sua organização, cultura e beleza urbana.</p>
+    <img class="img-responsive about-image" src="./img/sobreNos.jpg" alt="Imagem de Curitiba"/>
+    <h4 class="foto-credit">Photo by Gabriel Rodrigues on Unsplash</h4>
+  </div>
+  <div class="col-md-6">
+    <div class="panel-group" id="painel-sobre">
 <div class="panel panel-default">
 <div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p1">
 <h3 class="panel-title"  > Desde 1693</h3>
@@ -67,10 +71,12 @@ fonte: ricmais.com.br
 </p>
 </div>
 </div>
+    </div>
+  </div>
 </div>
 </section>
 <Section class="container">
-<h1 id="clientes" class="titulo-clientes"> Galeria</h1>
+<h1 id="clientes" class="titulo-clientes">Galeria</h1>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -82,21 +88,21 @@ fonte: ricmais.com.br
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="./img/foto1.jpg" alt="...">
+      <img class="gallery-image" src="./img/foto1.jpg" alt="Imagem da cidade de Curitiba">
       <div class="carousel-caption">
 	  <h3> Photo by Cassiano Psomas on pexels</h3>
         ...
       </div>
     </div>
     <div class="item">
-      <img src="./img/foto2.jpg" alt="...">
+      <img class="gallery-image" src="./img/foto2.jpg" alt="Imagem de Curitiba em destaque">
       <div class="carousel-caption">
 	  <h3> Photo by Koala on Unsplash</h3>
         ...
       </div>
     </div>
 	<div class="item">
-      <img src="./img/foto3.jpg" alt="...">
+      <img class="gallery-image" src="./img/foto3.jpg" alt="Outra imagem de Curitiba">
       <div class="carousel-caption">
 	   <h3> Photo by Cassiano Psomas on Unsplash</h3>
         ...
